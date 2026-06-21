@@ -1,0 +1,17 @@
+# IDE files — never commit these
+.idea/
+*.iml
+workspace.xml
+misc.xml
+profiles_settings.xml
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,32 @@
+因变量: GDP_亿元
+自变量: ['人口_万人']
+样本量: 301
+============================================================
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 GDP_亿元   R-squared:                       0.678
+Model:                            OLS   Adj. R-squared:                  0.677
+Method:                 Least Squares   F-statistic:                     628.8
+Date:                Sun, 21 Jun 2026   Prob (F-statistic):           1.70e-75
+Time:                        08:24:41   Log-Likelihood:                -3295.9
+No. Observations:                 301   AIC:                             6596.
+Df Residuals:                     299   BIC:                             6603.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       1368.9020   1472.572      0.930      0.353   -1529.015    4266.819
+人口_万人          7.1514      0.285     25.075      0.000       6.590       7.713
+==============================================================================
+Omnibus:                       61.281   Durbin-Watson:                   0.450
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              101.526
+Skew:                           1.160   Prob(JB):                     8.99e-23
+Kurtosis:                       4.647   Cond. No.                     9.54e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.54e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

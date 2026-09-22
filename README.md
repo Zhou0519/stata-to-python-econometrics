@@ -110,6 +110,20 @@ panel construction more deeply by implementing them outside of Stata's
 built-in import routines, and (2) build fluency in the tools most commonly
 used in applied economic research and data analysis roles.
 
+## Project Timeline
+
+- **Jan 2026 – Feb 2026** — Initial development. Built the core
+  pipeline over the winter break, working locally in a Jupyter
+  Notebook. The pipeline was fully functional at this stage: it could
+  read raw National Bureau of Statistics exports, detect encoding and
+  delimiter, reshape wide files into a panel, clean and merge
+  indicators, and run an OLS regression.
+
+- **Jun 2026** — Refactored the code into a reusable Python package,
+  added this documentation and usage examples, and open-sourced the
+  project on GitHub. The commit history begins here because the code
+  was developed locally before being uploaded.
+
 ## Tools Used
 
 - Python 3.11
